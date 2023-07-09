@@ -1,0 +1,45 @@
+// Neste código, será abordado um conhecimento mais avançado sobre formulários.
+
+ <head>
+      	   <title>Pagina Principal</title>
+      	   <meta charset="utf-8"> 
+      </head>
+
+      <body>
+        
+           <form>
+         <h2>Cadastre-se</h2>
+
+         Login:<br>
+         <input type="Text" name="Login"><br><br>
+
+         Sexo: <br>
+         <input type="radio" name="sexo" value="M"> Masculino<br
+         >
+         <input type="radio" name="sexo" value="O"> Outros<br>
+         <input type="radio" name="sexo" value="F"> Feminino<br><br>
+
+         Interesses<br>
+         <input type="checkbox" name="Interesses"> Futebol<br>
+         <input type="checkbox" name="Interesses"> Curso<br>
+         <input type="checkbox" name="Interesses"> Livros<br>
+         <input type="checkbox" name="Interesses"> Moda <br><br>
+
+         Estados<br>
+         <select name="estado">
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="rj">RJ</option>
+            <option value="rs">RS</option>
+            <option value="am">AM</option>
+         </select><br><br>
+
+         Observações: <br>
+         <textarea></textarea><br><br>
+
+         <input type="submit" value="Cadastre-se">
+
+         </form>
+   </body>
+ 
+</html>
